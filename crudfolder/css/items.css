@@ -1,0 +1,41 @@
+.items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.single-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+.single-item span {
+  flex-grow: 1;
+}
+
+.single-item input[type="text"] {
+  flex-grow: 1;
+  padding: 4px;
+  font-size: 1rem;
+}
+
+.clear-btn {
+  margin-top: 1rem;
+  background-color: cyan;
+  color: rgb(230, 7, 7);
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.clear-btn:hover {
+  background-color: rgb(188, 8, 8);
+  color: white
+}
+
+.empty {
+  text-align: center;
+  color: rgb(24, 102, 123);
+  font-style: italic;
+}
