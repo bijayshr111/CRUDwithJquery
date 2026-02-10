@@ -34,7 +34,7 @@ $(document).ready(function () {
 
       const $name = $("<span>")
         .text(item.name)
-        .css("text-decoration", item.completed ? "line-through" : "none");
+        .css("color", "#ff0505");
 
       const $editBtn = $("<button>")
         .addClass("btn edit-btn")
@@ -88,7 +88,7 @@ $(document).ready(function () {
     }
   });
 
-  // Clear all items
+ 
   $("#clear-btn").on("click", function () {
     groceryItems = [];
     saveItems();
